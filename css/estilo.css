@@ -1,0 +1,109 @@
+/* ESTILO.CSS */
+
+*{ margin: 0; padding: 0; }
+
+body{ 
+	font-family: helvetica, arial; 
+	font-size: 16px; 
+	color:#333;
+}
+
+header{
+	height: 120px;
+	background-image: url(https://static-cdn.soluall.net/2018/bgs/bg_header.png), url(https://solutudo-cdn.s3-sa-east-1.amazonaws.com/prod/std_cover_photos/8989/5a8f1a58-55a0-452d-97b7-082bac1f1cc5.jpg);
+    background-position: center, top right;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    background-size: cover, 87%;
+    color: #fff;
+}
+
+footer{
+	height: 180px;
+    background-color: #642d91;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+    font-size: 11px;
+    font-family: nunito, sans-serif;
+}
+
+/*class*/
+/*.container{
+	margin: 0 auto;
+	width: 960px;
+}*/
+
+/*id*/
+#conteudo {
+	padding:50px 0;
+}
+
+#menu {
+	float: right;
+	padding: 50px 60px;
+}
+
+#menu a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #111;
+}
+
+.btn-primary{
+ 
+background-color: #642d91 !important;
+ 
+background-repeat: repeat-x;
+ 
+border-color: #2f080e #2f080e hsl(351, 68%, 1.5%);
+ 
+color: #fff !important;
+ 
+ 
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+ 
+background-color: #8A2BE2 !important;
+ 
+background-repeat: repeat-x;
+ 
+border-color: #2f080e #2f080e hsl(351, 68%, 1.5%);
+ 
+color: #fff !important;
+ 
+}
+
+.fa-user-edit{
+	color: #642d91;
+}
+
+.fa-user-edit:hover{
+	color: #8A2BE2;
+}
+
+.fa-user-times{
+	color: tomato;
+}
+
+.fa-user-times:hover{
+	color: red;
+}
+
+.fa-edit{
+	color: #642d91;
+}
+
+.fa-edit:hover{
+	color: #8A2BE2;
+}
+
+.fa-trash-alt{
+	color: tomato;
+}
+
+.fa-trash-alt:hover{
+	color: red;
+}
